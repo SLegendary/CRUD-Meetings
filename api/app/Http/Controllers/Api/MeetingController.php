@@ -10,7 +10,7 @@ class MeetingController extends Controller
 {
     public function index()
     {
-        $meetings = Meeting::all();
+        $meetings = Meeting::orderBy('room')->orderBy('stime')->get();
         return $meetings;
     }
 
@@ -27,7 +27,7 @@ class MeetingController extends Controller
 
     public function show(Request $request)
     {
-        $meetings = Meeting::where('room', $request->room)->get();
+        $meetings = Meeting::where('room', $request->room)->get(['stime','etime']);
         return $meetings;
     }
 
