@@ -6,21 +6,26 @@
 
 ## Install
 
-```sh
 ///////API///////
 composer install
-php artisan serve
 
 ///////Web site///////
 npm install
+
+## Usage
+
+///////API///////
+php artisan serve
+
+///////Web site///////
 npm start
-```
 
 ## Author
 
 👤 **Sebastián Rodríguez**
 
-- LinkedIn: [@www.linkedin.com\/in\/sebastián-rodma](https://linkedin.com/in/www.linkedin.com/in/sebastián-rodma)
+- Github: [@SLegendary](https://github.com/SLegendary)
+- LinkedIn: [@sebastián-rodma](https://linkedin.com/in/sebastián-rodma)
 
 ## Show your support
 
