@@ -20,7 +20,7 @@ npm start
 
 👤 **Sebastián Rodríguez**
 
-- LinkedIn: [@www.linkedin.com\/in\/sebastián-rodma](www.linkedin.com/in/sebastián-rodma)
+- LinkedIn: [@sebastián-rodma](www.linkedin.com/in/sebastián-rodma)
 
 ## Show your support
 
