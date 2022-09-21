@@ -6,18 +6,18 @@
 
 ## Install
 
-///////API///////
+API:
 composer install
 
-///////Web site///////
+Web site:
 npm install
 
 ## Usage
 
-///////API///////
+API:
 php artisan serve
 
-///////Web site///////
+Web site:
 npm start
 
 ## Author
