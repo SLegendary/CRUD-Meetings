@@ -40,7 +40,7 @@ const CreateMeeting = () => {
         } else if (auxE > getS && auxE < getE) {
           alert("La hora final interviene en otra reunion en esta sala."); //Si interviene, muestra mensaje de error
           aux += 1;
-        } else if (auxS == getS && auxE && getE) {
+        } else if (auxS === getS && auxE && getE) {
           alert("La sala esta ocupada.");
           aux += 1;
         }
